@@ -1,0 +1,271 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\WampDeveloper\\Tools\\NodeJS\\\\node.exe',
+1 verbose cli   'C:\\WampDeveloper\\Tools\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\package.json
+5 verbose install where, deps [ 'C:\\Users\\MxBlinkPx\\HubSpotVSCode\\NodeAppTest\\BaseWebApp',
+5 verbose install   [ 'ejs', 'express' ] ]
+6 verbose install where, peers [ 'C:\\Users\\MxBlinkPx\\HubSpotVSCode\\NodeAppTest\\BaseWebApp',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\package.json
+8 info preinstall node-js-getting-started@0.1.5
+9 verbose installManyTop reading scoped package data from C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\express\package.json
+10 verbose readDependencies loading dependencies from C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\package.json
+11 verbose targetResolver reading package data from C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\express\package.json
+12 verbose already installed skipping express@^4.15.2 C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp
+13 silly cache add args [ 'ejs@^2.5.6', null ]
+14 verbose cache add spec ejs@^2.5.6
+15 silly cache add parsed spec { raw: 'ejs@^2.5.6',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'ejs',
+15 silly cache add   rawSpec: '^2.5.6',
+15 silly cache add   spec: '>=2.5.6 <3.0.0',
+15 silly cache add   type: 'range' }
+16 silly addNamed ejs@>=2.5.6 <3.0.0
+17 verbose addNamed ">=2.5.6 <3.0.0" is a valid semver range for ejs
+18 silly addNameRange { name: 'ejs', range: '>=2.5.6 <3.0.0', hasData: false }
+19 silly mapToRegistry name ejs
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry http://registry.npm.taobao.org/
+22 silly mapToRegistry uri http://registry.npm.taobao.org/ejs
+23 verbose addNameRange registry:http://registry.npm.taobao.org/ejs not in flight; fetching
+24 verbose request uri http://registry.npm.taobao.org/ejs
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 2:25:36 PM
+27 verbose request id 30e2a5f49ee53ebe
+28 verbose etag W/"2281c5a061a06a5b9ed8480ff2971708"
+29 http request GET http://registry.npm.taobao.org/ejs
+30 http 304 http://registry.npm.taobao.org/ejs
+31 silly get cb [ 304,
+31 silly get   { server: 'Tengine',
+31 silly get     'content-type': 'application/json; charset=utf-8',
+31 silly get     connection: 'keep-alive',
+31 silly get     date: 'Mon, 21 Jun 2021 18:25:36 GMT',
+31 silly get     'x-current-requests': '1',
+31 silly get     vary: 'accept, accept-encoding',
+31 silly get     etag: 'W/"2281c5a061a06a5b9ed8480ff2971708"',
+31 silly get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+31 silly get     'x-readtime': '20',
+31 silly get     via: 'us13.l1, cache8.us13, l2ot7-1.l2, cache3.l2ot7-1, izbp127ruhn1gm9jws6c62z, cache3.l2ot7-1[193,193,200-0,H], cache36.l2ot7-1[194,0], cache8.us13[334,334,304-0,M], cache9.us13[336,0]',
+31 silly get     'content-encoding': 'gzip',
+31 silly get     'ali-swift-global-savetime': '1624299936',
+31 silly get     age: '0',
+31 silly get     'x-cache': 'MISS TCP_IMS_HIT dirn:9:246072197',
+31 silly get     'timing-allow-origin': '*',
+31 silly get     eagleid: '2ff6169d16242999362983822e' } ]
+32 verbose etag http://registry.npm.taobao.org/ejs from cache
+33 verbose get saving ejs to C:\Users\MxBlinkPx\AppData\Roaming\npm-cache\registry.npm.taobao.org\ejs\.cache.json
+34 silly addNameRange number 2 { name: 'ejs', range: '>=2.5.6 <3.0.0', hasData: true }
+35 silly addNameRange versions [ 'ejs',
+35 silly addNameRange   [ '3.1.6',
+35 silly addNameRange     '3.1.5',
+35 silly addNameRange     '3.1.4',
+35 silly addNameRange     '3.1.3',
+35 silly addNameRange     '3.1.2',
+35 silly addNameRange     '3.0.2',
+35 silly addNameRange     '3.0.1',
+35 silly addNameRange     '2.7.4',
+35 silly addNameRange     '2.7.3',
+35 silly addNameRange     '2.7.2',
+35 silly addNameRange     '2.7.1',
+35 silly addNameRange     '2.6.2',
+35 silly addNameRange     '2.6.1',
+35 silly addNameRange     '2.5.9',
+35 silly addNameRange     '2.5.8',
+35 silly addNameRange     '2.5.7',
+35 silly addNameRange     '2.5.6',
+35 silly addNameRange     '2.5.5',
+35 silly addNameRange     '2.5.4',
+35 silly addNameRange     '2.5.3',
+35 silly addNameRange     '2.5.2',
+35 silly addNameRange     '2.5.1',
+35 silly addNameRange     '2.4.2',
+35 silly addNameRange     '2.4.1',
+35 silly addNameRange     '2.3.4',
+35 silly addNameRange     '2.3.3',
+35 silly addNameRange     '2.3.2',
+35 silly addNameRange     '2.3.1',
+35 silly addNameRange     '2.2.4',
+35 silly addNameRange     '2.2.3',
+35 silly addNameRange     '2.2.2',
+35 silly addNameRange     '2.2.1',
+35 silly addNameRange     '2.1.4',
+35 silly addNameRange     '2.1.3',
+35 silly addNameRange     '2.1.2',
+35 silly addNameRange     '2.1.1',
+35 silly addNameRange     '2.0.8',
+35 silly addNameRange     '2.0.7',
+35 silly addNameRange     '2.0.6',
+35 silly addNameRange     '2.0.5',
+35 silly addNameRange     '2.0.4',
+35 silly addNameRange     '2.0.3',
+35 silly addNameRange     '2.0.2',
+35 silly addNameRange     '1.0.0',
+35 silly addNameRange     '0.8.8',
+35 silly addNameRange     '0.8.6',
+35 silly addNameRange     '0.8.5',
+35 silly addNameRange     '0.8.4',
+35 silly addNameRange     '0.8.3',
+35 silly addNameRange     '0.8.2',
+35 silly addNameRange     '0.8.1',
+35 silly addNameRange     '0.8.0',
+35 silly addNameRange     '0.7.2',
+35 silly addNameRange     '0.7.1',
+35 silly addNameRange     '0.7.0',
+35 silly addNameRange     '0.6.1',
+35 silly addNameRange     '0.6.0',
+35 silly addNameRange     '0.5.0',
+35 silly addNameRange     '0.4.3',
+35 silly addNameRange     '0.4.2',
+35 silly addNameRange     '0.4.1',
+35 silly addNameRange     '0.4.0',
+35 silly addNameRange     '0.3.1',
+35 silly addNameRange     '0.0.3',
+35 silly addNameRange     '0.3.0',
+35 silly addNameRange     '0.2.1',
+35 silly addNameRange     '0.2.0',
+35 silly addNameRange     '0.1.0',
+35 silly addNameRange     '0.0.4',
+35 silly addNameRange     '0.0.2',
+35 silly addNameRange     '0.0.1' ] ]
+36 silly addNamed ejs@2.7.4
+37 verbose addNamed "2.7.4" is a plain semver version for ejs
+38 silly cache afterAdd ejs@2.7.4
+39 verbose afterAdd C:\Users\MxBlinkPx\AppData\Roaming\npm-cache\ejs\2.7.4\package\package.json not in flight; writing
+40 verbose afterAdd C:\Users\MxBlinkPx\AppData\Roaming\npm-cache\ejs\2.7.4\package\package.json written
+41 silly install resolved [ { name: 'ejs',
+41 silly install resolved     description: 'Embedded JavaScript templates',
+41 silly install resolved     keywords: [ 'template', 'engine', 'ejs' ],
+41 silly install resolved     version: '2.7.4',
+41 silly install resolved     author:
+41 silly install resolved      { name: 'Matthew Eernisse',
+41 silly install resolved        email: 'mde@fleegix.org',
+41 silly install resolved        url: 'http://fleegix.org' },
+41 silly install resolved     license: 'Apache-2.0',
+41 silly install resolved     main: './lib/ejs.js',
+41 silly install resolved     repository: { type: 'git', url: 'git://github.com/mde/ejs.git' },
+41 silly install resolved     bugs: { url: 'https://github.com/mde/ejs/issues' },
+41 silly install resolved     homepage: 'https://github.com/mde/ejs',
+41 silly install resolved     dependencies: {},
+41 silly install resolved     devDependencies:
+41 silly install resolved      { browserify: '^13.1.1',
+41 silly install resolved        eslint: '^4.14.0',
+41 silly install resolved        'git-directory-deploy': '^1.5.1',
+41 silly install resolved        jake: '^10.3.1',
+41 silly install resolved        jsdoc: '^3.4.0',
+41 silly install resolved        'lru-cache': '^4.0.1',
+41 silly install resolved        mocha: '^5.0.5',
+41 silly install resolved        'uglify-js': '^3.3.16' },
+41 silly install resolved     engines: { node: '>=0.10.0' },
+41 silly install resolved     scripts: { test: 'mocha', postinstall: 'node ./postinstall.js' },
+41 silly install resolved     _resolved: 'http://registry.npm.taobao.org/ejs/download/ejs-2.7.4.tgz',
+41 silly install resolved     _integrity: '',
+41 silly install resolved     _from: 'ejs@>=2.5.6 <3.0.0',
+41 silly install resolved     _id: 'ejs@2.7.4',
+41 silly install resolved     _nodeVersion: '12.6.0',
+41 silly install resolved     _npmVersion: '6.9.0',
+41 silly install resolved     dist:
+41 silly install resolved      { shasum: '48661287573dcc53e366c7a1ae52c3a120eec9ba',
+41 silly install resolved        size: 37914,
+41 silly install resolved        noattachment: false,
+41 silly install resolved        tarball: 'https://registry.npm.taobao.org/ejs/download/ejs-2.7.4.tgz' },
+41 silly install resolved     maintainers: [ [Object] ],
+41 silly install resolved     _npmUser: { name: 'mde', email: 'mde@fleegix.org' },
+41 silly install resolved     directories: {},
+41 silly install resolved     _npmOperationalInternal:
+41 silly install resolved      { host: 's3://npm-registry-packages',
+41 silly install resolved        tmp: 'tmp/ejs_2.7.4_1574190991245_0.24433792486339567' },
+41 silly install resolved     _hasShrinkwrap: false,
+41 silly install resolved     publish_time: 1574190991375,
+41 silly install resolved     _cnpm_publish_time: 1574190991375,
+41 silly install resolved     _shasum: '48661287573dcc53e366c7a1ae52c3a120eec9ba',
+41 silly install resolved     readme: 'ERROR: No README data found!' } ]
+42 info install ejs@2.7.4 into C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp
+43 info installOne ejs@2.7.4
+44 verbose installOne of ejs to C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp not in flight; installing
+45 verbose lock using C:\Users\MxBlinkPx\AppData\Roaming\npm-cache\_locks\ejs-5c88518940571a02.lock for C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+46 silly install write writing ejs 2.7.4 to C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+47 verbose unbuild node_modules\ejs
+48 silly gentlyRm C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs is being purged from base C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp
+49 verbose gentlyRm don't care about contents; nuking C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+50 verbose tar unpack C:\Users\MxBlinkPx\AppData\Roaming\npm-cache\ejs\2.7.4\package.tgz
+51 verbose tar unpacking to C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+52 silly gentlyRm C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs is being purged
+53 verbose gentlyRm don't care about contents; nuking C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+54 silly gunzTarPerm modes [ '777', '666' ]
+55 silly gunzTarPerm extractEntry
+56 silly gunzTarPerm modified mode [ '', 493, 511 ]
+57 silly gunzTarPerm extractEntry LICENSE
+58 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+59 silly gunzTarPerm extractEntry postinstall.js
+60 silly gunzTarPerm modified mode [ 'postinstall.js', 493, 511 ]
+61 silly gunzTarPerm extractEntry ejs.js
+62 silly gunzTarPerm modified mode [ 'ejs.js', 420, 438 ]
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+65 silly gunzTarPerm extractEntry jakefile.js
+66 silly gunzTarPerm modified mode [ 'jakefile.js', 420, 438 ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+69 silly gunzTarPerm extractEntry lib/
+70 silly gunzTarPerm modified mode [ 'lib/', 493, 511 ]
+71 silly gunzTarPerm extractEntry ejs.min.js
+72 silly gunzTarPerm modified mode [ 'ejs.min.js', 420, 438 ]
+73 silly gunzTarPerm extractEntry lib/ejs.js
+74 silly gunzTarPerm modified mode [ 'lib/ejs.js', 493, 511 ]
+75 silly gunzTarPerm extractEntry lib/utils.js
+76 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+77 verbose write writing to C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs\package.json
+78 info preinstall ejs@2.7.4
+79 verbose readDependencies loading dependencies from C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs\package.json
+80 verbose readDependencies loading dependencies from C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs\package.json
+81 silly install resolved []
+82 verbose about to build C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+83 info build C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+84 info linkStuff ejs@2.7.4
+85 silly linkStuff ejs@2.7.4 has C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules as its parent node_modules
+86 verbose linkBins ejs@2.7.4
+87 verbose linkMans ejs@2.7.4
+88 verbose rebuildBundles ejs@2.7.4
+89 info install ejs@2.7.4
+90 info postinstall ejs@2.7.4
+91 verbose unsafe-perm in lifecycle true
+92 info ejs@2.7.4 Failed to exec postinstall script
+93 verbose unlock done using C:\Users\MxBlinkPx\AppData\Roaming\npm-cache\_locks\ejs-5c88518940571a02.lock for C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+94 verbose stack Error: ejs@2.7.4 postinstall: `node ./postinstall.js`
+94 verbose stack Exit status 1
+94 verbose stack     at EventEmitter.<anonymous> (C:\WampDeveloper\Tools\NodeJS\node_modules\npm\lib\utils\lifecycle.js:213:16)
+94 verbose stack     at EventEmitter.emit (events.js:110:17)
+94 verbose stack     at ChildProcess.<anonymous> (C:\WampDeveloper\Tools\NodeJS\node_modules\npm\lib\utils\spawn.js:24:14)
+94 verbose stack     at ChildProcess.emit (events.js:110:17)
+94 verbose stack     at maybeClose (child_process.js:1015:16)
+94 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+95 verbose pkgid ejs@2.7.4
+96 verbose cwd C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp
+97 error Windows_NT 6.3.9600
+98 error argv "C:\\WampDeveloper\\Tools\\NodeJS\\\\node.exe" "C:\\WampDeveloper\\Tools\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "install"
+99 error node v0.12.7
+100 error npm  v2.11.3
+101 error code ELIFECYCLE
+102 error ejs@2.7.4 postinstall: `node ./postinstall.js`
+102 error Exit status 1
+103 error Failed at the ejs@2.7.4 postinstall script 'node ./postinstall.js'.
+103 error This is most likely a problem with the ejs package,
+103 error not with npm itself.
+103 error Tell the author that this fails on your system:
+103 error     node ./postinstall.js
+103 error You can get their info via:
+103 error     npm owner ls ejs
+103 error There is likely additional logging output above.
+104 verbose exit [ 1, true ]
+105 verbose unbuild node_modules\ejs
+106 info preuninstall ejs@2.7.4
+107 info uninstall ejs@2.7.4
+108 verbose unbuild rmStuff ejs@2.7.4 from C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules
+109 info postuninstall ejs@2.7.4
+110 silly gentlyRm C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs is being purged from base C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp
+111 verbose gentlyRm don't care about contents; nuking C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+112 silly vacuum-fs purging C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules\ejs
+113 silly vacuum-fs quitting because other entries in C:\Users\MxBlinkPx\HubSpotVSCode\NodeAppTest\BaseWebApp\node_modules
